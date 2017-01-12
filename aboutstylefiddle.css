@@ -1,0 +1,161 @@
+body { 
+   background-color: #f2f2f2;
+}/*or put it in omnia?*/
+
+#omnia {
+   position: static;
+   width: 100%;
+   height: 100%; 
+   min-width: 100%; 
+   min-height: 100%; 
+   margin: 0px; 
+   padding: 0px; 
+}
+
+#headr {
+   position: absolute; 
+   background-color: #d9d9d9; 
+   margin-left: 10%; 
+   width: 80%; 
+   margin-top: 1%; 
+   border-radius: 5px; 
+   margin-bottom: 2%;
+   padding-top: 1.5%; 
+   height: auto; 
+}
+
+#nombre {
+   text-align: center; 
+   font-size: 2.5em; 
+   margin-top: -10px; 
+   font-family: Garamond, Palatino; 
+   color: black; 
+}
+
+#subsec {
+   text-align: center; 
+   font-size: 1.2em; 
+   margin-top: -35px; 
+   font-family: Garamond, Palatino; 
+   color: black; /* for text */
+}
+
+#allbuttons {
+  position: absolute; 
+  width: 9%; 
+  height: 6%; 
+  margin-left: 45.5%;  
+  margin-top: 10%; 
+  background-color: white; 
+  z-index: 100; 
+}
+
+.buttons {
+  position: absolute; 
+  width: 33.3%; 
+  height: 50%;
+  border-radius: 3%; 
+  opacity: 0.5; 
+  border: none; 
+}
+.buttons:hover {opacity: 1; }
+
+#but1 {
+  top: 0%; 
+  left: 0%; 
+  background-color: red; 
+}
+
+#but2 {
+  top: 0%; 
+  left: 33.3%; 
+  background-color: yellow; 
+}
+
+#but3 {
+  top: 0%; 
+  left: 66.6%; 
+  background-color: lightgreen; 
+}
+
+#but4 {
+  top: 50%; 
+  margin-left: 0%; 
+  background-color: blue; 
+}
+
+#but5 {
+  top: 50%; 
+  margin-left: 33.3%; 
+  background-color: violet; 
+}
+
+#but6 {
+  top: 50%; 
+  margin-left: 66.6%; 
+  background-color: silver; 
+}
+
+#bods {
+   width: auto; 
+   height: auto; 
+   overflow: auto;
+   position: absolute; 
+   margin-top: 15%; 
+   margin-bottom: 2%; 
+   margin-left: 10%; 
+   margin-right: 10%; 
+   background-color: #d9d9d9; 
+   border-radius: 5px; 
+   padding: 6px; 
+}
+
+#blurb {
+   text-align: left; 
+   margin-left: 10px; 
+   font-size: 2em; 
+   font-family: Perpetua, Garamond, Times; //Palatino initially 
+   color: black; /*for text*/
+   margin-top: 5px; 
+}
+
+#footr {
+   position: absolute; 
+   background-color: #d9d9d9; 
+   left: 10%; 
+   width: auto; 
+   height: auto; 
+   min-height: 7%; 
+   min-width: 80%; 
+   margin-top: 40%; 
+   border-radius: 5px; 
+}
+
+.foot {
+   text-align: center; 
+   text-size: 1em; 
+   font-family: Palatino; 
+   color: black; 
+   margin-top: 5px; 
+   margin-bottom: 5px; 
+}
+
+#foot1 {
+  position: absolute; 
+  margin-left: 2%; 
+  margin-top: 0.7%; 
+}
+#foot2 {
+  position: absolute;
+  margin-left: 80%; 
+  margin-top: 0.7%;  
+}
+
+#pusher {
+  position: absolute; 
+  top: 80%; 
+  background-color: green;
+  opacity: 0; 
+  height: 8%; 
+  width: 90%; 
+}

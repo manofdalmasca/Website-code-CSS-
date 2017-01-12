@@ -1,0 +1,304 @@
+body {  
+  background-color: #f2f2f2;
+}
+
+#omnia {
+   position: static;
+   width: 100%;
+   height: 100%; 
+   min-width: 100%; 
+   min-height: 100%; 
+   margin: 0px; 
+   padding: 0px; 
+}
+
+#headr {
+   position: absolute; 
+   opacity: 1; 
+   background-color: #d9d9d9; 
+   margin-left: 10%; 
+   width: 80%; 
+   margin-top: 1%; 
+   border-radius: 5px; 
+   margin-bottom: 2%; 
+   height: auto; 
+}
+
+#subsec {
+   text-align: center; 
+   font-size: 1.2em; 
+   margin-top: 1.5%;  
+   font-family: Garamond, Palatino; 
+   color: black; 
+}
+
+#allbuttons {
+  position: absolute; 
+  width: 9%; 
+  height: 6%; 
+  margin-left: 45.5%;  
+  margin-top: 9%; 
+  background-color: white; 
+  z-index: 100; 
+}
+
+.buttons {
+  position: absolute; 
+  width: 33.3%; 
+  height: 50%;
+  border-radius: 3%; 
+  opacity: 0.5; 
+  border: none; 
+}
+.buttons:hover {opacity: 1; }
+
+#but1 {
+  top: 0%; 
+  left: 0%; 
+  background-color: red; 
+}
+
+#but2 {
+  top: 0%; 
+  left: 33.3%; 
+  background-color: yellow; 
+}
+
+#but3 {
+  top: 0%; 
+  left: 66.6%; 
+  background-color: lightgreen; 
+}
+
+#but4 {
+  top: 50%; 
+  margin-left: 0%; 
+  background-color: blue; 
+}
+
+#but5 {
+  top: 50%; 
+  margin-left: 33.3%; 
+  background-color: violet; 
+}
+
+#but6 {
+  top: 50%; 
+  margin-left: 66.6%; 
+  background-color: silver; 
+}
+
+#bods {
+   width: auto; 
+   height: auto; 
+   min-width: 60%;
+   min-height: 100%; 
+   overflow: auto;
+   position: absolute;  
+   margin-top: 15%; 
+   margin-bottom: 2%; 
+   margin-left: 20%; 
+   margin-right: 10%;  
+   opacity: 1; 
+   background-color: #d9d9d9; 
+   border-radius: 5px; 
+   padding: 6px; 
+   overflow: scroll; 
+}
+
+#pic1 {
+  position: absolute; 
+  width: 28%; 
+  height: 28%; 
+  left: 4%; 
+  top: 4%; 
+  background-color: purple; 
+  border-radius: 4px; 
+  background-image: url("http://www.samuel-stern.info/picDir/pics/tiger.jpg"); 
+  background-size: cover;
+}
+
+#pic2 {
+  position: absolute; 
+  width: 28%; 
+  height: 28%; 
+  left: 36%; 
+  top: 4%; 
+  background-color: yellow; 
+  border-radius: 4px; 
+  background-image: url("http://www.samuel-stern.info/picDir/pics/toothless.jpg"); 
+  background-size: cover;
+}
+
+#pic3 {
+  position: absolute; 
+  width: 28%; 
+  height: 28%; 
+  left: 68%; 
+  top: 4%; 
+  background-color: green; 
+  border-radius: 4px; 
+  background-image: url("http://www.samuel-stern.info/picDir/pics/still.jpg"); 
+  background-size: cover;
+}
+
+#pic4 {
+  position: absolute; 
+  width: 28%; 
+  height: 28%; 
+  left: 4%; 
+  top: 36%; 
+  background-color: red; 
+  border-radius: 4px;   
+  background-image: url("http://www.samuel-stern.info/picDir/pics/peacock.jpg"); 
+  background-size: cover;
+}
+
+#pic5 {
+  position: absolute; 
+  width: 28%; 
+  height: 28%; 
+  left: 36%; 
+  top: 36%; 
+  background-color: blue; 
+  border-radius: 4px; 
+    background-image: url("http://www.samuel-stern.info/picDir/pics/nigihayami.jpg"); 
+  background-size: cover;
+}
+
+#pic6 {
+  position: absolute; 
+  width: 28%; 
+  height: 28%; 
+  left: 68%; 
+  top: 36%; 
+  background-color: skyblue; 
+  border-radius: 4px;   
+  background-image: url("http://www.samuel-stern.info/picDir/pics/munch.jpg"); 
+  background-size: cover;
+}
+
+#pic7 {
+  position: absolute; 
+  width: 28%; 
+  height: 28%; 
+  left: 4%; 
+  top: 68%; 
+  background-color: orange; 
+  border-radius: 4px;   
+  background-image: url("http://www.samuel-stern.info/picDir/pics/moa.jpg"); 
+  background-size: cover;
+}
+
+#pic8 {
+  position: absolute; 
+  width: 28%; 
+  height: 28%; 
+  left: 36%; 
+  top: 68%; 
+  background-color: yellowgreen; 
+  border-radius: 4px;   
+  background-image: url("http://www.samuel-stern.info/picDir/pics/cigazze.jpg"); 
+  background-size: cover;
+}
+
+#pic9 {
+  position: absolute; 
+  width: 28%; 
+  height: 28%; 
+  left: 68%; 
+  top: 68%; 
+  background-color: white;  
+  border-radius: 4px; 
+  background-image: url("http://www.samuel-stern.info/picDir/pics/rwby.jpg"); 
+  background-size: cover;
+}
+
+.pcs:hover {
+  opacity: 0.5; 
+}
+
+#pic10 {
+  position: absolute; 
+  width: 28%; 
+  height: 28%; 
+  left: 36%; 
+  top: 100%; 
+  background-color: white; 
+  border-radius: 4px; 
+  background-image: url("http://www.samuel-stern.info/picDir/pics/buildings.jpg"); 
+  background-size: cover;
+}
+
+#ultima {
+  position: absolute; 
+  width: 100%; 
+  height: 4%; 
+  left: 0%; 
+  top: 128%; 
+  background-color: white; 
+  opacity: 0; 
+  border-radius: 4px; 
+}
+
+#footr {
+   position: absolute; 
+   background-color: #d9d9d9; 
+   left: 10%; 
+   width: auto; 
+   height: auto; 
+   min-height: 7%;
+   min-width: 80%;  
+   top: 150%; 
+   border-radius: 5px; 
+}
+
+#talk {
+   position: absolute; 
+   background-color: #d9d9d9; 
+   left: 20%; 
+   width: auto; 
+   height: auto; 
+   min-height: 8%;
+   max-width: 65%;  
+   top: 136%; 
+   border-radius: 5px;   
+}
+
+#talkstuff {
+   text-align: center; 
+   font-size: 1.1em; 
+   margin-top: 1.5%;  
+   font-family: Garamond, Palatino; 
+   color: black; 
+  
+}
+
+.foot {
+   text-align: center; 
+   text-size: 1em; 
+   font-family: Palatino; 
+   color: black; 
+   margin-top: 5px; 
+   margin-bottom: 5px; 
+}
+
+#foot1 {
+  position: absolute; 
+  margin-left: 2%; 
+  margin-top: 0.7%; 
+}
+#foot2 {
+  position: absolute;
+  margin-left: 80%; 
+  margin-top: 0.7%;  
+}
+
+#pusher {
+  position: absolute; 
+  top: 151%; 
+  background-color: green;
+  opacity: 0; 
+  height: 8%; 
+  width: 90%; 
+}
