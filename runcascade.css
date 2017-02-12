@@ -1,0 +1,174 @@
+body { 
+  background-color: #f2f2f2;
+  position: absolute;
+  width: 780px; 
+  left: 50%; 
+  margin-left: -390px;
+}
+
+#omnia {
+   position: absolute;
+   /*width: 100%;*/
+   /*height: 100%;*/ 
+   /*min-width: 100%;*/ 
+   /*min-height: 100%;*/ 
+   margin: 0px; 
+   padding: 0px; 
+}
+
+#headr {
+   position: relative; 
+   background-color: #d9d9d9; 
+   width: 780px;
+   margin-top: 5px; 
+   border-radius: 5px; 
+   margin-bottom: 10px; 
+   height: auto; 
+   overflow: hidden;
+}
+
+#subsec {
+   text-align: center; 
+   font-size: 1.2em; 
+   margin-top: 15px; 
+   font-family: Garamond, Palatino; 
+   color: black; 
+}
+
+#allbuttons {
+  position: relative; 
+  width: 150px; 
+  height: 50px;   
+  margin-top: 25px;
+  left: 315px; 
+  background-color: white; 
+  z-index: 100; 
+}
+
+.buttons {
+  position: absolute; 
+  width: 50px; 
+  height: 25px;
+  border-radius: 1px; 
+  opacity: 0.5; 
+  border: none; 
+}
+.buttons:hover {opacity: 1; }
+
+#but1 {
+  top: 0px; 
+  left: 0px; 
+  background-color: red; 
+}
+
+#but2 {
+  top: 0px; 
+  left: 50px; 
+  background-color: yellow; 
+}
+
+#but3 {
+  top: 0px; 
+  left: 100px; 
+  background-color: lightgreen; 
+}
+
+#but4 {
+  top: 25px; 
+  margin-left: 0px; 
+  background-color: blue; 
+}
+
+#but5 {
+  top: 25px; 
+  margin-left: 50px; 
+  background-color: violet; 
+}
+
+#but6 {
+  top: 25px; 
+  margin-left: 100px; 
+  background-color: silver; 
+}
+
+#bods {
+   width: 780px; 
+   height: 1000px; 
+   position: relative; 
+   margin-top: 35px; 
+   margin-bottom: 10px;   
+   background-color: #d9d9d9; 
+   border-radius: 5px; 
+   overflow: scroll;
+}
+
+#explanat {
+   text-align: center; 
+   margin-left: 10px; 
+   font-size: 1.2em; 
+   font-family: Perpetua, Garamond, Times;  
+   color: black; 
+   margin-top: 10px; 
+   margin-bottom: 5px; 
+} 
+
+.nodes {
+  font-family: Garamond;
+  border-top: 1px dotted black; 
+  border-bottom: 1px dotted black; 
+  padding: 2px; 
+  width: 137px; 
+  text-align: center; 
+}
+
+.times {
+}
+
+#timesTable {
+  position: absolute; 
+  margin: 10px; 
+  border: 1px dashed black; 
+  border-radius: 3px; 
+  left: 96px; /*because of the scroll bar on the right*/
+  width: 568px; /*15% on the margins and 70% across at first*/
+}
+
+#footr {
+   position: relative; 
+   background-color: #d9d9d9;  
+   width: 780px; 
+   height: 40px;  
+   margin-top: 35px;
+   border-radius: 5px; 
+}
+
+.foot {
+   text-align: center; 
+   font-size: 1em; 
+   font-family: Palatino; 
+   color: black; 
+   margin-top: 5px; 
+   margin-bottom: 5px; 
+}
+
+#foot1 {
+  position: absolute; 
+  margin-left: 8px; 
+  margin-top: 4px; 
+}
+
+#foot2 {
+  width: 300px;
+  position: absolute;
+  margin-left: 515px; 
+  margin-top: 4px;  
+}
+
+#pusher {
+  position: relative; 
+  margin-top: 0px; 
+  background-color: green;
+  opacity: 0; 
+  height: 10px; 
+  width: 780px; 
+}

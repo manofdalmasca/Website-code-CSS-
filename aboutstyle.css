@@ -1,0 +1,163 @@
+body { 
+   background-color: #f2f2f2;
+   position: absolute;
+   width: 780px; 
+   left: 50%; /*it's these two lines*/
+   margin-left: -390px; 
+   /*The xkcd.com sysadmin probably included these just to trigger that recentering
+   effect. More experimentation in order. */
+}
+
+#omnia {
+   position: absolute;
+   /*width: 100%;*/
+   /*height: 100%;*/ 
+   /*min-width: 100%; */
+   /*min-height: 100%;*/ 
+   margin: 0px; 
+   padding: 0px; 
+}
+
+#headr {
+   position: relative; 
+   background-color: #d9d9d9; 
+   width: 780px; 
+   margin-top: 5px; 
+   border-radius: 5px; 
+   margin-bottom: 10px;
+   padding-top: 7px; 
+   height: auto; 
+   overflow: hidden;
+}
+
+#nombre {
+   text-align: center; 
+   font-size: 2.5em; 
+   margin-top: -5px; 
+   font-family: Garamond, Palatino; 
+   color: black; 
+}
+
+#subsec {
+   text-align: center; 
+   font-size: 1.2em; 
+   margin-top: -35px; 
+   font-family: Garamond, Palatino; 
+   color: black; /* for text */
+}
+
+#allbuttons {
+  position: relative; 
+  width: 150px;
+  height: 50px;   
+  margin-top: 25px; 
+  left: 315px;
+  background-color: white; 
+  z-index: 100; 
+}
+
+.buttons {
+  position: absolute; 
+  width: 50px; 
+  height: 25px;
+  border-radius: 1px; 
+  opacity: 0.5; 
+  border: none; 
+}
+.buttons:hover {opacity: 1; }
+
+#but1 {
+  top: 0px; 
+  left: 0px; 
+  background-color: red; 
+}
+
+#but2 {
+  top: 0px; 
+  left: 50px; 
+  background-color: yellow; 
+}
+
+#but3 {
+  top: 0px; 
+  left: 100px; 
+  background-color: lightgreen; 
+}
+
+#but4 {
+  top: 25px; 
+  margin-left: 0px; 
+  background-color: blue; 
+}
+
+#but5 {
+  top: 25px; 
+  margin-left: 50px; 
+  background-color: violet; 
+}
+
+#but6 {
+  top: 25px; 
+  margin-left: 100px; 
+  background-color: silver; 
+}
+
+#bods {
+   width: 780px; 
+   height: auto; 
+   overflow: auto;
+   position: relative; 
+   margin-top: 35px; 
+   margin-bottom: 10px; 
+   background-color: #d9d9d9; 
+   border-radius: 5px; 
+}
+
+#blurb {
+   text-align: left; 
+   margin-left: 10px; 
+   font-size: 2em; 
+   font-family: Perpetua, Garamond, Times; 
+   color: black; 
+   margin-top: 5px; 
+}
+
+#footr {
+   position: relative; 
+   background-color: #d9d9d9; 
+   height: 40px; 
+   width: 780px; 
+   margin-top: 35px; 
+   border-radius: 5px; 
+}
+
+.foot {
+   text-align: center; 
+   font-size: 1em; 
+   font-family: Palatino; 
+   color: black; 
+   margin-top: 5px; 
+   margin-bottom: 5px; 
+}
+
+#foot1 {
+  position: absolute; 
+  margin-left: 8px; 
+  width: 300x;
+  margin-top: 4px; 
+}
+#foot2 {
+  width: 300px;
+  margin-left: 515px;
+  position: absolute; 
+  margin-top: 4px;  
+}
+
+#pusher {
+  position: relative; 
+  margin-top: 0px; 
+  background-color: green;
+  opacity: 0; 
+  height: 10px; 
+  width: 780px; 
+}

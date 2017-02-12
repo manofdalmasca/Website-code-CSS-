@@ -1,117 +1,121 @@
 body {  
   background-color: #f2f2f2;
+  position: absolute;
+  width: 800px;
+  left: 50%; 
+  margin-left: -400px;
 }
 
 #omnia {
-   position: static;
-   width: 100%;
-   height: 100%; 
-   min-width: 100%; 
-   min-height: 100%; 
+   position: absolute;
+   /*width: 100%;*/
+   /*height: 100%;*/ 
+   /*min-width: 100%;*/ 
+   /*min-height: 100%;*/ 
    margin: 0px; 
    padding: 0px; 
 }
 
 #headr {
-   position: absolute; 
-   opacity: 1; 
+   position: relative;  
    background-color: #d9d9d9; 
-   margin-left: 10%; 
-   width: 80%; 
-   margin-top: 1%; 
+   width: 800px; 
+   margin-top: 5px; 
    border-radius: 5px; 
-   margin-bottom: 2%; 
+   margin-bottom: 10px;
    height: auto; 
+   overflow: hidden;
 }
 
 #subsec {
    text-align: center; 
    font-size: 1.2em; 
-   margin-top: 1.5%;  
+   margin-top: 15px;  
    font-family: Garamond, Palatino; 
    color: black; 
 }
 
 #allbuttons {
-  position: absolute; 
-  width: 9%; 
-  height: 6%; 
-  margin-left: 45.5%;  
-  margin-top: 9%; 
+  position: relative; 
+  width: 150px; 
+  height: 50px; 
+  left: 315px;  
+  margin-top: 25px; 
   background-color: white; 
   z-index: 100; 
 }
 
 .buttons {
   position: absolute; 
-  width: 33.3%; 
-  height: 50%;
-  border-radius: 3%; 
+  width: 50px; 
+  height: 25px;
+  border-radius: 1px; 
   opacity: 0.5; 
   border: none; 
 }
 .buttons:hover {opacity: 1; }
 
 #but1 {
-  top: 0%; 
-  left: 0%; 
+  top: 0px; 
+  left: 0px; 
   background-color: red; 
 }
 
 #but2 {
-  top: 0%; 
-  left: 33.3%; 
+  top: 0px; 
+  left: 50px; 
   background-color: yellow; 
 }
 
 #but3 {
-  top: 0%; 
-  left: 66.6%; 
+  top: 0px; 
+  left: 100px; 
   background-color: lightgreen; 
 }
 
 #but4 {
-  top: 50%; 
-  margin-left: 0%; 
+  top: 25px; 
+  margin-left: 0px; 
   background-color: blue; 
 }
 
 #but5 {
-  top: 50%; 
-  margin-left: 33.3%; 
+  top: 25px; 
+  margin-left: 50px; 
   background-color: violet; 
 }
 
 #but6 {
-  top: 50%; 
-  margin-left: 66.6%; 
+  top: 25px; 
+  margin-left: 100px; 
   background-color: silver; 
 }
 
 #bods {
-   width: auto; 
-   height: auto; 
-   min-width: 60%;
-   min-height: 100%; 
-   overflow: auto;
-   position: absolute;  
-   margin-top: 15%; 
-   margin-bottom: 2%; 
-   margin-left: 20%; 
-   margin-right: 10%;  
-   opacity: 1; 
+   width: 800px; 
+   height: 1000px; 
+   position: relative;  
+   margin-top: 35px; 
+   margin-bottom: 10px;  
    background-color: #d9d9d9; 
    border-radius: 5px; 
-   padding: 6px; 
    overflow: scroll; 
 }
 
+.pcs {
+  position: absolute;
+}
+
+.pcs:hover {
+  opacity: 0.5;
+}
+
 #pic1 {
-  position: absolute; 
-  width: 28%; 
-  height: 28%; 
-  left: 4%; 
-  top: 4%; 
+  /*position: absolute; */
+  width: 224px; /*28% originally*/
+  height: 224px; 
+  left: 32px; /*4% originally*/
+  top: 32px; 
   background-color: purple; 
   border-radius: 4px; 
   background-image: url("http://www.samuel-stern.info/picDir/pics/tiger.jpg"); 
@@ -119,11 +123,11 @@ body {
 }
 
 #pic2 {
-  position: absolute; 
-  width: 28%; 
-  height: 28%; 
-  left: 36%; 
-  top: 4%; 
+  /*position: absolute; */
+  width: 224px; 
+  height: 224px; 
+  left: 288px; /*36% originally*/ 
+  top: 32px; 
   background-color: yellow; 
   border-radius: 4px; 
   background-image: url("http://www.samuel-stern.info/picDir/pics/toothless.jpg"); 
@@ -131,11 +135,11 @@ body {
 }
 
 #pic3 {
-  position: absolute; 
-  width: 28%; 
-  height: 28%; 
-  left: 68%; 
-  top: 4%; 
+  /*position: absolute;*/ 
+  width: 224px; 
+  height: 224px; 
+  left: 544px; /*68% originally*/ 
+  top: 32px; 
   background-color: green; 
   border-radius: 4px; 
   background-image: url("http://www.samuel-stern.info/picDir/pics/still.jpg"); 
@@ -143,11 +147,11 @@ body {
 }
 
 #pic4 {
-  position: absolute; 
-  width: 28%; 
-  height: 28%; 
-  left: 4%; 
-  top: 36%; 
+  /*position: absolute;*/ 
+  width: 224px; 
+  height: 224px; 
+  left: 32px; 
+  top: 288px; /*36% originally*/ 
   background-color: red; 
   border-radius: 4px;   
   background-image: url("http://www.samuel-stern.info/picDir/pics/peacock.jpg"); 
@@ -155,23 +159,23 @@ body {
 }
 
 #pic5 {
-  position: absolute; 
-  width: 28%; 
-  height: 28%; 
-  left: 36%; 
-  top: 36%; 
+  /*position: absolute;*/ 
+  width: 224px; 
+  height: 224px; 
+  left: 288px; 
+  top: 288px; 
   background-color: blue; 
   border-radius: 4px; 
-    background-image: url("http://www.samuel-stern.info/picDir/pics/nigihayami.jpg"); 
+  background-image: url("http://www.samuel-stern.info/picDir/pics/nigihayami.jpg"); 
   background-size: cover;
 }
 
 #pic6 {
-  position: absolute; 
-  width: 28%; 
-  height: 28%; 
-  left: 68%; 
-  top: 36%; 
+  /*position: absolute;*/ 
+  width: 224px; 
+  height: 224px; 
+  left: 544px; 
+  top: 288px; 
   background-color: skyblue; 
   border-radius: 4px;   
   background-image: url("http://www.samuel-stern.info/picDir/pics/munch.jpg"); 
@@ -179,11 +183,11 @@ body {
 }
 
 #pic7 {
-  position: absolute; 
-  width: 28%; 
-  height: 28%; 
-  left: 4%; 
-  top: 68%; 
+  /*position: absolute;*/ 
+  width: 224px; 
+  height: 224px; 
+  left: 32px; 
+  top: 544px; 
   background-color: orange; 
   border-radius: 4px;   
   background-image: url("http://www.samuel-stern.info/picDir/pics/moa.jpg"); 
@@ -191,11 +195,11 @@ body {
 }
 
 #pic8 {
-  position: absolute; 
-  width: 28%; 
-  height: 28%; 
-  left: 36%; 
-  top: 68%; 
+  /*position: absolute;*/ 
+  width: 224px; 
+  height: 224px; 
+  left: 288px; 
+  top: 544px; 
   background-color: yellowgreen; 
   border-radius: 4px;   
   background-image: url("http://www.samuel-stern.info/picDir/pics/cigazze.jpg"); 
@@ -203,27 +207,23 @@ body {
 }
 
 #pic9 {
-  position: absolute; 
-  width: 28%; 
-  height: 28%; 
-  left: 68%; 
-  top: 68%; 
+  /*position: absolute;*/ 
+  width: 224px; 
+  height: 224px; 
+  left: 544px; 
+  top: 544px; 
   background-color: white;  
   border-radius: 4px; 
   background-image: url("http://www.samuel-stern.info/picDir/pics/rwby.jpg"); 
   background-size: cover;
 }
 
-.pcs:hover {
-  opacity: 0.5; 
-}
-
 #pic10 {
-  position: absolute; 
-  width: 28%; 
-  height: 28%; 
-  left: 36%; 
-  top: 100%; 
+  /*position: absolute;*/ 
+  width: 224px; 
+  height: 224px; 
+  left: 288px; 
+  top: 800px; /*100% originally*/ 
   background-color: white; 
   border-radius: 4px; 
   background-image: url("http://www.samuel-stern.info/picDir/pics/buildings.jpg"); 
@@ -231,44 +231,39 @@ body {
 }
 
 #ultima {
-  position: absolute; 
-  width: 100%; 
-  height: 4%; 
-  left: 0%; 
-  top: 128%; 
+  /*position: absolute;*/ 
+  width: 780px; 
+  height: 32px; 
+  left: 0px; 
+  top: 1024px; /*originally 128%*/ 
   background-color: white; 
   opacity: 0; 
   border-radius: 4px; 
 }
 
 #footr {
-   position: absolute; 
+   position: relative; 
    background-color: #d9d9d9; 
-   left: 10%; 
-   width: auto; 
-   height: auto; 
-   min-height: 7%;
-   min-width: 80%;  
-   top: 150%; 
+   width: 800px; 
+   height: 40px;   
+   margin-top: 30px; 
    border-radius: 5px; 
 }
 
 #talk {
-   position: absolute; 
+   position: relative; 
    background-color: #d9d9d9; 
-   left: 20%; 
-   width: auto; 
-   height: auto; 
-   min-height: 8%;
-   max-width: 65%;  
-   top: 136%; 
+   width: 800px; 
+   height: 50px;   
+   margin-top: 10px;
    border-radius: 5px;   
 }
 
 #talkstuff {
    text-align: center; 
    font-size: 1.1em; 
-   margin-top: 1.5%;  
+   margin-top: 8px; 
+   padding-top: 5px;
    font-family: Garamond, Palatino; 
    color: black; 
   
@@ -276,7 +271,7 @@ body {
 
 .foot {
    text-align: center; 
-   text-size: 1em; 
+   font-size: 1em; 
    font-family: Palatino; 
    color: black; 
    margin-top: 5px; 
@@ -285,20 +280,21 @@ body {
 
 #foot1 {
   position: absolute; 
-  margin-left: 2%; 
-  margin-top: 0.7%; 
+  margin-left: 8px; 
+  margin-top: 4px; 
 }
 #foot2 {
+  width: 300px;
   position: absolute;
-  margin-left: 80%; 
-  margin-top: 0.7%;  
+  margin-left: 535px; 
+  margin-top: 4px;  
 }
 
 #pusher {
-  position: absolute; 
-  top: 151%; 
+  position: relative; 
+  margin-top: 0px;
   background-color: green;
   opacity: 0; 
-  height: 8%; 
-  width: 90%; 
+  height: 10px; 
+  width: 800px; 
 }
